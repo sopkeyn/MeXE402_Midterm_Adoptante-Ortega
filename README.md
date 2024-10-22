@@ -45,9 +45,10 @@ The Heart Disease dataset, originating from 1988, comprises data from four datab
 
 The comprehensive nature of this dataset makes it a valuable tool for healthcare professionals and researchers, as it provides insights into various risk factors associated with cardiovascular health. Its use in logistic regression analyses enables the development of predictive models that can help improve patient outcomes and guide medical decision-making. Overall, the Heart Disease dataset plays a crucial role in advancing research in cardiology and public health.
 
-<img src="https://github.com/user-attachments/assets/072bdead-9c53-4936-93e2-88869494b4bb" alt="Header 1" width="1100" height="290" />
-<img src="https://github.com/user-attachments/assets/6480f15a-e1ee-4e62-b852-9a32ea011344" alt="Header 2" width="1100" height="290" />
 <img src="https://github.com/user-attachments/assets/af254068-afe6-41c3-9f06-22977d292def" alt="Header 3" width="1100" height="290" />
+
+---
+
 <img src="https://github.com/user-attachments/assets/d1fbb6d0-d50d-4f0b-bfa5-9dc17baeae8f" alt="Header 4" width="1100" height="290" />
 <img src="https://github.com/user-attachments/assets/2ae218db-4d85-4617-8cb8-fedf967a90f4" alt="Header 5" width="1100" height="290" />
 
