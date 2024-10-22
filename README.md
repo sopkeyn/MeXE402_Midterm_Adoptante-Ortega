@@ -16,7 +16,6 @@
 
 Evaluating the effectiveness of a linear regression model often involves metrics like the coefficient of determination, which indicates how much of the variability in the dependent variable can be explained by the independent variables. Linear regression is commonly applied in various fields such as economics, healthcare, and social sciences, aiding in tasks like forecasting trends. Its simplicity makes it accessible to researchers and practitioners alike, allowing for easy interpretation of results.
 
----
 On the other hand, **Logistic regression** is a statistical method used to predict binary outcomes, meaning outcomes that can be categorized into two distinct groups, like yes/no or success/failure. This method estimates the likelihood of an event happening based on one or more independent variables. Unlike linear regression, which deals with continuous outcomes, logistic regression focuses on categorical results,making it especially useful for classification tasks. It can analyze multiple independent variables at once, providing insights into how these variables affect the probability of a certain outcome.
 
 **Key assumptions of logistic regression include:**
