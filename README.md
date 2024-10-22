@@ -8,10 +8,7 @@
 
 
 
-
-
-
-
+<img src="https://github.com/user-attachments/assets/a56328b5-b523-48f2-9882-554845c1951b" alt="Logistic Email Header" width="1100" height="290" />
 <img src="https://github.com/user-attachments/assets/072bdead-9c53-4936-93e2-88869494b4bb" alt="Header 1" width="1100" height="290" />
 <img src="https://github.com/user-attachments/assets/6480f15a-e1ee-4e62-b852-9a32ea011344" alt="Header 2" width="1100" height="290" />
 <img src="https://github.com/user-attachments/assets/af254068-afe6-41c3-9f06-22977d292def" alt="Header 3" width="1100" height="290" />
