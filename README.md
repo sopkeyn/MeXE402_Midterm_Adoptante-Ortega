@@ -26,6 +26,7 @@ On the other hand, **Logistic regression** is a statistical method used to predi
   
     Overall, **Linear regression** is a foundational statistical technique that models the relationship between independent and continuous dependent variables, enabling predictions based on historical data. In contrast, **Logistic regression** is tailored for binary outcomes, estimating the probability of an event occurring based on one or more predictors. Together, these methods provide valuable insights across various fields, helping researchers and practitioners make informed decisions based on data-driven analyses. Both techniques are essential for understanding complex relationships in data and enhancing predictive accuracy.
 
+---
 <p align="center">**𝐃𝐚𝐭𝐚𝐬𝐞𝐭 𝐈𝐧𝐬𝐢𝐠𝐡𝐭𝐬**</p>
 
 **Linear Regression: Student Performance Data**
