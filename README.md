@@ -3,7 +3,7 @@
 
 <p align="center">**𝐈𝐍𝐓𝐑𝐎𝐃𝐔𝐂𝐓𝐈𝐎𝐍: 𝐎𝐯𝐞𝐫𝐯𝐢𝐞𝐰 𝐨𝐟 𝐋𝐢𝐧𝐞𝐚𝐫 𝐚𝐧𝐝 𝐋𝐨𝐠𝐢𝐬𝐭𝐢𝐜 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧**</p>
 
-    **Linear regression** is a widely used statistical method that helps us understand the relationship between one or more independent variables and a continuous dependent variable. Its main goal is to find a straight line that best represents the connection between these variables. This approach allows researchers to predict future outcomes based on historical data. In its simplest form, linear regression looks at the effect of a single predictor variable, but it can also accommodate multiple predictors in more complex analyses. The method works by reducing the differences between actual values and predicted values, kno-
+**Linear regression** is a widely used statistical method that helps us understand the relationship between one or more independent variables and a continuous dependent variable. Its main goal is to find a straight line that best represents the connection between these variables. This approach allows researchers to predict future outcomes based on historical data. In its simplest form, linear regression looks at the effect of a single predictor variable, but it can also accommodate multiple predictors in more complex analyses. The method works by reducing the differences between actual values and predicted values, kno-
 wn as residuals.
 
 **Several key assumptions underlie linear regression:**
