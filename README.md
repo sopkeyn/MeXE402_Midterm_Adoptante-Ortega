@@ -26,14 +26,19 @@ On the other hand, **Logistic regression** is a statistical method used to predi
     This technique finds application in areas like healthcare for predicting disease occurrences and in marketing for customer segmentation. To evaluate logistic regression models, various performance metrics are used, such as accuracy, precision, recall, and the area under the Receiver Operating Characteristic (ROC) curve.
   
     Overall, **Linear regression** is a foundational statistical technique that models the relationship between independent and continuous dependent variables, enabling predictions based on historical data. In contrast, **Logistic regression** is tailored for binary outcomes, estimating the probability of an event occurring based on one or more predictors. Together, these methods provide valuable insights across various fields, helping researchers and practitioners make informed decisions based on data-driven analyses. Both techniques are essential for understanding complex relationships in data and enhancing predictive accuracy.
-
+  
 ---
+
 <p align="center">**𝐃𝐚𝐭𝐚𝐬𝐞𝐭 𝐈𝐧𝐬𝐢𝐠𝐡𝐭𝐬**</p>
+
+<img src="https://github.com/user-attachments/assets/072bdead-9c53-4936-93e2-88869494b4bb" alt="Header 1" width="1100" height="290" />
 
 **Linear Regression: Student Performance Data**
 The Student Performance dataset on Kaggle investigates academic achievement in secondary education across two Portuguese schools. This dataset includes various attributes, such as student grades, demographic information, and social and school-related features, all gathered through school reports and student questionnaires. It consists of two primary datasets focusing on performance in Mathematics (referred to as "mat") and Portuguese language (referred to as "por").
 
 According to research by Cortez and Silva (2008), these datasets can be used for both classification and regression tasks, providing flexibility in analysis. The target variable, G3, represents the final year grade and is closely correlated with the earlier grades G1 and G2, which correspond to the first and second-period assessments. This correlation highlights the challenge of predicting G3 without incorporating G1 and G2, though such predictions are deemed more beneficial for understanding student performance. The dataset serves as an important resource for researchers aiming to analyze educational outcomes and the factors influencing them.
+
+<img src="https://github.com/user-attachments/assets/6480f15a-e1ee-4e62-b852-9a32ea011344" alt="Header 2" width="1100" height="290" />
 
 **Logistic Regression: Heart Disease Dataset**
 The Heart Disease dataset, originating from 1988, comprises data from four databases: Cleveland, Hungary, Switzerland, and Long Beach V. It features a total of 76 attributes, although many studies focus on a subset of 14 key attributes for analysis. The dataset aims to predict the presence of heart disease in patients, indicated by the target field. This target is coded as an integer value, where 0 signifies no heart disease and 1 indicates the presence of the disease.
