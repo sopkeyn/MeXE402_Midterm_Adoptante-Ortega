@@ -5,21 +5,27 @@
 
     **Linear regression** is a widely used statistical method that helps us understand the relationship between one or more independent variables and a continuous dependent variable. Its main goal is to find a straight line that best represents the connection between these variables. This approach allows researchers to predict future outcomes based on historical data. In its simplest form, linear regression looks at the effect of a single predictor variable, but it can also accommodate multiple predictors in more complex analyses. The method works by reducing the differences between actual values and predicted values, kno-
 wn as residuals.
+
 **Several key assumptions underlie linear regression:**
+
 - The relationships between variables are linear.
 - The effect of an independent variable on the dependent variable remains consistent.
 - Errors (the differences between observed and predicted values) are independent of each other and normally distributed.
 - Errors have constant variance (homoscedasticity).
 
 Evaluating the effectiveness of a linear regression model often involves metrics like the coefficient of determination, which indicates how much of the variability in the dependent variable can be explained by the independent variables. Linear regression is commonly applied in various fields such as economics, healthcare, and social sciences, aiding in tasks like forecasting trends. Its simplicity makes it accessible to researchers and practitioners alike, allowing for easy interpretation of results.
+
 ---
 On the other hand, **Logistic regression** is a statistical method used to predict binary outcomes, meaning outcomes that can be categorized into two distinct groups, like yes/no or success/failure. This method estimates the likelihood of an event happening based on one or more independent variables. Unlike linear regression, which deals with continuous outcomes, logistic regression focuses on categorical results,maki-
 ng it especially useful for classification tasks. It can analyze multiple independent variables at once, providing insights into how these variables affect the probability of a certain outcome.
+
 **Key assumptions of logistic regression include:**
+
 - Independence of observations.
 - A linear relationship between independent variables and the log-odds of the outcome.
 
-    This technique finds application in areas like healthcare for predicting disease occurrences and in marketing for customer segmentation. To evaluate logistic regression models, various performance metrics are used, such as accuracy, precision, recall, and the area under the Receiver Operating Characteristic (ROC) curve. 
+    This technique finds application in areas like healthcare for predicting disease occurrences and in marketing for customer segmentation. To evaluate logistic regression models, various performance metrics are used, such as accuracy, precision, recall, and the area under the Receiver Operating Characteristic (ROC) curve.
+  
     Overall, **Linear regression** is a foundational statistical technique that models the relationship between independent and continuous dependent variables, enabling predictions based on historical data. In contrast, **Logistic regression** is tailored for binary outcomes, estimating the probability of an event occurring based on one or more predictors. Together, these methods provide valuable insights acrossvari-ous fields, helping researchers and practitioners make informed decisions based on data-driven analyses. Both techniques are essential for understanding complex relationships in data and enhancing predictive accuracy.
 
 <img src="https://github.com/user-attachments/assets/072bdead-9c53-4936-93e2-88869494b4bb" alt="Header 1" width="1100" height="290" />
