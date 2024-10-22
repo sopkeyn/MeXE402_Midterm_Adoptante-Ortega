@@ -2,7 +2,7 @@
 <img src="https://github.com/user-attachments/assets/a56328b5-b523-48f2-9882-554845c1951b" alt="Logistic Email Header" width="1100" height="290" />
 
 <p align="center">####**𝐈𝐍𝐓𝐑𝐎𝐃𝐔𝐂𝐓𝐈𝐎𝐍: 𝐎𝐯𝐞𝐫𝐯𝐢𝐞𝐰 𝐨𝐟 𝐋𝐢𝐧𝐞𝐚𝐫 𝐚𝐧𝐝 𝐋𝐨𝐠𝐢𝐬𝐭𝐢𝐜 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧** </p>
-_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+**_______________________________________________________________________________________________________________________________________________________________________________________________________________**
 
 <p style="text-align: justify;">
 Linear regression is a fundamental statistical method used to model the relationship between one or more independent variables and a continuous dependent variable. It seeks to find a straight-line fit that best describes the relationship between these variables. By analyzing this relationship, researchers can make predictions about future outcomes based on existing data. In its simplest form, linear regression focuses on one predictor variable, while multiple linear regression allows for the inclusion of several predictors. The technique minimizes the differences between observed values and predicted values, which are known as residuals.
