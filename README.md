@@ -5,7 +5,7 @@
 
 ---
 
-**Linear and Logistic Regression** are foundational statistical techniques used for predicting outcomes based on input data. Linear regression estimates continuous outcomes by fitting a straight line to the relationship between variables, while logistic regression models binary outcomes by estimating the probability that a given input falls into one of two categories using a logistic function. Both methods are essential for data analysis, enabling researchers and practitioners to draw insights and make informed decisions based on their data.
+**Linear Regression** and **Logistic Regression** are foundational statistical techniques used for predicting outcomes based on input data. Linear regression estimates continuous outcomes by fitting a straight line to the relationship between variables, while logistic regression models binary outcomes by estimating the probability that a given input falls into one of two categories using a logistic function. Both methods are essential for data analysis, enabling researchers and practitioners to draw insights and make informed decisions based on their data.
 
 Additionally, **Linear regression** is a widely used statistical method that helps us understand the relationship between one or more independent variables and a continuous dependent variable. Its main goal is to find a straight line that best represents the connection between these variables. This approach allows researchers to predict future outcomes based on historical data. In its simplest form, linear regression looks at the effect of a single predictor variable, but it can also accommodate multiple predictors in more complex analyses. The method works by reducing the differences between actual values and predicted values, known as residuals.
 
