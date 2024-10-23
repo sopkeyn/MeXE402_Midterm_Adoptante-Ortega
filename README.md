@@ -35,14 +35,14 @@ On the other hand, **Logistic regression** is a statistical method used to predi
 
 <img src="https://github.com/user-attachments/assets/072bdead-9c53-4936-93e2-88869494b4bb" alt="Header 1" width="1100" height="290" />
 
-**Linear Regression: Student Performance Data**
+**𝐋𝐢𝐧𝐞𝐚𝐫 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧: 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐃𝐚𝐭𝐚**
 The Student Performance dataset on Kaggle investigates academic achievement in secondary education across two Portuguese schools. This dataset includes various attributes, such as student grades, demographic information, and social and school-related features, all gathered through school reports and student questionnaires. It consists of two primary datasets focusing on performance in Mathematics (referred to as "mat") and Portuguese language (referred to as "por").
 
 According to research by Cortez and Silva (2008), these datasets can be used for both classification and regression tasks, providing flexibility in analysis. The target variable, G3, represents the final year grade and is closely correlated with the earlier grades G1 and G2, which correspond to the first and second-period assessments. This correlation highlights the challenge of predicting G3 without incorporating G1 and G2, though such predictions are deemed more beneficial for understanding student performance. The dataset serves as an important resource for researchers aiming to analyze educational outcomes and the factors influencing them.
 
 <img src="https://github.com/user-attachments/assets/6480f15a-e1ee-4e62-b852-9a32ea011344" alt="Header 2" width="1100" height="290" />
 
-**Logistic Regression: Heart Disease Dataset**
+**𝐋𝐨𝐠𝐢𝐬𝐭𝐢𝐜 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧: 𝐇𝐞𝐚𝐫𝐭 𝐃𝐢𝐬𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐚𝐬𝐞𝐭**
 The Heart Disease dataset, originating from 1988, comprises data from four databases: Cleveland, Hungary, Switzerland, and Long Beach V. It features a total of 76 attributes, although many studies focus on a subset of 14 key attributes for analysis. The dataset aims to predict the presence of heart disease in patients, indicated by the target field. This target is coded as an integer value, where 0 signifies no heart disease and 1 indicates the presence of the disease.
 
 The comprehensive nature of this dataset makes it a valuable tool for healthcare professionals and researchers, as it provides insights into various risk factors associated with cardiovascular health. Its use in logistic regression analyses enables the development of predictive models that can help improve patient outcomes and guide medical decision-making. Overall, the Heart Disease dataset plays a crucial role in advancing research in cardiology and public health.
