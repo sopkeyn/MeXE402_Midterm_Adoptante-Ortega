@@ -133,7 +133,7 @@ In data analysis and machine learning, it's essential to convert categorical var
   - Mother: 4400
   - Father: 4500
 
-- **School Support for Romantic Relationships:**
+- **School Support upto Romantic column:**
   - Yes: 1
   - No: 2
 
