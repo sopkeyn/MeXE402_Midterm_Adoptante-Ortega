@@ -46,6 +46,25 @@ The Heart Disease dataset, originating from 1988, comprises data from four datab
 The comprehensive nature of this dataset makes it a valuable tool for healthcare professionals and researchers, as it provides insights into various risk factors associated with cardiovascular health. Its use in logistic regression analyses enables the development of predictive models that can help improve patient outcomes and guide medical decision-making. Overall, the Heart Disease dataset plays a crucial role in advancing research in cardiology and public health.
 
 <img src="https://github.com/user-attachments/assets/af254068-afe6-41c3-9f06-22977d292def" alt="Header 3" width="1100" height="290" />
+**Project Objectives for Linear Regression on Student Performance Dataset**
+
+-To analyze the dataset by conducting a comprehensive exploration of the dataset to understand its structure and identify any missing values, outliers, and necessary preprocessing steps.
+
+-Identify the key fctors by determining significant factors influencing student performance by analyzing the relationships among demographic, social, and academic variables in relation to the final grade (G3).
+
+-Develop a predictive model by creatoing a linear regression model to predict G3 based on relevant independent variables, using training and testing sets and evaluating performance through metrics like R²
+
+-Validate and Test the Model to ensure model robustness through cross-validation and performance assessment using additional metrics for accuracy and reliability.
+
+**Project Objectives for Logistic Regression on Heart Disease UCI Dataset**
+
+-To analyze the dataset to explore the Heart Disease dataset to understand its structure, identify missing values and outliers, and perform necessary preprocessing.
+
+-To identify key risk factors by analyzing medical and demographic factors influencing heart disease using statistical methods and visualizations to uncover correlations.
+
+-Develop a predictive models by creatiing a logistic regression model to predict heart disease presence, splitting the dataset into training and testing sets, and evaluating performance through various metrics.
+
+-Validate and Test the Model: Ensure model robustness through cross-validation and performance assessment using additional metrics for accuracy and reliability.
 
 ---
 
