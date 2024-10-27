@@ -45,7 +45,10 @@ The Heart Disease dataset, originating from 1988, comprises data from four datab
 
 The comprehensive nature of this dataset makes it a valuable tool for healthcare professionals and researchers, as it provides insights into various risk factors associated with cardiovascular health. Its use in logistic regression analyses enables the development of predictive models that can help improve patient outcomes and guide medical decision-making. Overall, the Heart Disease dataset plays a crucial role in advancing research in cardiology and public health.
 
+---
+
 <img src="https://github.com/user-attachments/assets/af254068-afe6-41c3-9f06-22977d292def" alt="Header 3" width="1100" height="290" />
+
 **Project Objectives for Linear Regression on Student Performance Dataset**
 
 -To analyze the dataset by conducting a comprehensive exploration of the dataset to understand its structure and identify any missing values, outliers, and necessary preprocessing steps.
