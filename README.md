@@ -74,5 +74,67 @@ The comprehensive nature of this dataset makes it a valuable tool for healthcare
 ---
 
 <img src="https://github.com/user-attachments/assets/d1fbb6d0-d50d-4f0b-bfa5-9dc17baeae8f" alt="Header 4" width="1100" height="290" />
+
+Label Encoding for Categorical Variables
+In data analysis and machine learning, it's essential to convert categorical variables into numerical formats so that algorithms can process them effectively. This process is known as Label Encoding. Below is a detailed explanation of how I assigned unique numerical values to each category in the dataset:
+
+School:
+
+The schools were represented by unique identifiers: "GP" was encoded as 6, and "MS" as 5. This assigns a numerical value that represents each school while maintaining a distinction between them.
+Sex:
+
+Gender was encoded such that "Male" (M) is represented as 1, while "Female" (F) is encoded as 0. This binary encoding facilitates the analysis of gender-related effects.
+Age:
+
+Age values (15, 16, 17, 18, 19, and 20) were directly mapped to their respective numerical values, retaining the original information while ensuring compatibility with numerical operations.
+Address:
+
+The type of address was categorized as follows: "Urban" (U) as 3000 and "Rural" (R) as 3100. This encoding allows the model to recognize urban versus rural classifications.
+Family Size:
+
+Family size categories were encoded with "Greater than 3" (GT3) as 3200 and "Less than or equal to 3" (LE3) as 3300. This distinction is vital for analyzing family dynamics.
+Parents' Cohabitation Status:
+
+This variable was encoded with "Together" (T) as 3400 and "Apart" (A) as 3500. This helps in understanding the impact of family structure on student performance.
+Mother’s Education:
+
+The educational levels were encoded as follows:
+None: 0
+Primary Education: 1
+4th Grade: 2
+5th to 9th Grade: 3
+Secondary: 4
+College and Tertiary: 4 (both are given the same value for simplicity). This hierarchical encoding reflects the progression of educational attainment.
+Father’s Education:
+
+Similar to the mother’s education, this variable was encoded with the same numerical values for consistency and analysis.
+Mother’s Job:
+
+Jobs were encoded with unique values:
+At Home: 3600
+Health: 3700
+Other: 3800
+Teacher: 3900
+Services: 4000 This categorization allows for analysis of occupational influence on student outcomes.
+Father’s Job:
+
+The same encoding approach was applied to the father’s job, ensuring uniformity in data representation.
+Reason for Choosing School:
+
+The reasons were encoded as follows:
+Course: 4100
+Home: 4200
+Other: 3800
+Reputation: 4300 This encoding helps in understanding the motivations behind school choice.
+Guardian:
+
+Guardian types were encoded as:
+Mother: 4400
+Father: 4500 This differentiation aids in analyzing guardianship impacts.
+School Support for Romantic Relationships:
+
+This variable was encoded as 1 for "Yes" and 2 for "No", providing a simple binary representation.
+Summary of Changes
+By converting these categorical variables into numerical formats, we enable our dataset to be suitable for various analytical and machine learning tasks. It's crucial to apply these mappings consistently across the dataset to ensure data integrity and reliable analysis. This systematic approach not only prepares the data for model training but also facilitates a clearer understanding of the relationships between variables.
 <img src="https://github.com/user-attachments/assets/2ae218db-4d85-4617-8cb8-fedf967a90f4" alt="Header 5" width="1100" height="290" />
 
