@@ -38,15 +38,6 @@ The Student Performance dataset on Kaggle investigates academic achievement in s
 
 According to research by Cortez and Silva (2008), these datasets can be used for both classification and regression tasks, providing flexibility in analysis. The target variable, G3, represents the final year grade and is closely correlated with the earlier grades G1 and G2, which correspond to the first and second-period assessments. This correlation highlights the challenge of predicting G3 without incorporating G1 and G2, though such predictions are deemed more beneficial for understanding student performance. The dataset serves as an important resource for researchers aiming to analyze educational outcomes and the factors influencing them.
 
-**Dependent Variable:**
-
-**G3 (Final Grade):** This is the target variable that reflects the overall performance of students for the year. In logistic regression, this variable could be transformed into a binary outcome, such as:
-
-- **If Pass the numerical variable would be (1):** It indicates that  if G3 is 10 or above (considered passing).
-
-- **If  Fail the numerical variable would be(0):** It indicates that if  G3 is below 10.
-
-
 <img src="https://github.com/user-attachments/assets/6480f15a-e1ee-4e62-b852-9a32ea011344" alt="Header 2" width="1100" height="290" />
 
 **𝐋𝐨𝐠𝐢𝐬𝐭𝐢𝐜 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧: 𝐇𝐞𝐚𝐫𝐭 𝐃𝐢𝐬𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐚𝐬𝐞𝐭**
