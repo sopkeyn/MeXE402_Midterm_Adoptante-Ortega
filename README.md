@@ -51,7 +51,7 @@ The comprehensive nature of this dataset makes it a valuable tool for healthcare
 
 <img src="https://github.com/user-attachments/assets/af254068-afe6-41c3-9f06-22977d292def" alt="Header 3" width="1100" height="290" />
 
-**Project Objectives for Linear Regression on Student Performance Dataset**
+****𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐎𝐛𝐣𝐞𝐜𝐭𝐢𝐯𝐞𝐬 𝐟𝐨𝐫 𝐋𝐢𝐧𝐞𝐚𝐫 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧 𝐨𝐧 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐃𝐚𝐭𝐚𝐬𝐞𝐭**
 
 -To analyze the dataset by conducting a comprehensive exploration of the dataset to understand its structure and identify any missing values, outliers, and necessary preprocessing steps.
 
@@ -61,7 +61,7 @@ The comprehensive nature of this dataset makes it a valuable tool for healthcare
 
 -Validate and Test the Model to ensure model robustness through cross-validation and performance assessment using additional metrics for accuracy and reliability.
 
-**Project Objectives for Logistic Regression on Heart Disease UCI Dataset**
+****𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐎𝐛𝐣𝐞𝐜𝐭𝐢𝐯𝐞𝐬 𝐟𝐨𝐫 𝐋𝐨𝐠𝐢𝐬𝐭𝐢𝐜 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧 𝐨𝐧 𝐇𝐞𝐚𝐫𝐭 𝐃𝐢𝐬𝐞𝐚𝐬𝐞 𝐔𝐂𝐈 𝐃𝐚𝐭𝐚𝐬𝐞𝐭**
 
 -To analyze the dataset to explore the Heart Disease dataset to understand its structure, identify missing values and outliers, and perform necessary preprocessing.
 
