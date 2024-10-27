@@ -31,14 +31,18 @@ On the other hand, **Logistic regression** is a statistical method used to predi
   
 ---
 
-<p align="center">**𝐃𝐚𝐭𝐚𝐬𝐞𝐭 𝐈𝐧𝐬𝐢𝐠𝐡𝐭𝐬**</p>
-
 <img src="https://github.com/user-attachments/assets/072bdead-9c53-4936-93e2-88869494b4bb" alt="Header 1" width="1100" height="290" />
 
 **𝐋𝐢𝐧𝐞𝐚𝐫 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧: 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐃𝐚𝐭𝐚**
 The Student Performance dataset on Kaggle investigates academic achievement in secondary education across two Portuguese schools. This dataset includes various attributes, such as student grades, demographic information, and social and school-related features, all gathered through school reports and student questionnaires. It consists of two primary datasets focusing on performance in Mathematics (referred to as "mat") and Portuguese language (referred to as "por").
 
 According to research by Cortez and Silva (2008), these datasets can be used for both classification and regression tasks, providing flexibility in analysis. The target variable, G3, represents the final year grade and is closely correlated with the earlier grades G1 and G2, which correspond to the first and second-period assessments. This correlation highlights the challenge of predicting G3 without incorporating G1 and G2, though such predictions are deemed more beneficial for understanding student performance. The dataset serves as an important resource for researchers aiming to analyze educational outcomes and the factors influencing them.
+
+**Dependent Variable:**
+**G3 (Final Grade):** This is the target variable that reflects the overall performance of students for the year. In logistic regression, this variable could be transformed into a binary outcome, such as:
+-**If Pass the numerical variable would be (1):** It indicates that  if G3 is 10 or above (considered passing).
+-**If  Fail the numerical variable would be(0):** It indicates that if  G3 is below 10.
+
 
 <img src="https://github.com/user-attachments/assets/6480f15a-e1ee-4e62-b852-9a32ea011344" alt="Header 2" width="1100" height="290" />
 
