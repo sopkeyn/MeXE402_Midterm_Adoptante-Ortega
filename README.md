@@ -182,7 +182,13 @@ The linear regression model has been trained to predict the final grade (G3). He
 
 ### Model Implementation
 
+![Screenshot 2024-10-29 010536](https://github.com/user-attachments/assets/a51220d6-7d34-446d-931d-d3ce62a2adad)
+![Screenshot 2024-10-29 010627](https://github.com/user-attachments/assets/15058142-6056-423f-9d77-af606c85cd8b)
+![Screenshot 2024-10-29 010651](https://github.com/user-attachments/assets/499d83d5-f0d8-4bc4-9d41-595cd80a0847)
+
+
 ### Evaluation Metrics: Calculate R-squared and Mean Squared Error
+
 
 ### INTERPRETATION: Model's Predictive Power
 The predictive power of the model can be assessed using metrics like R-squared and Mean Squared Error (MSE):
