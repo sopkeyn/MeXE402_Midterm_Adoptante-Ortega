@@ -140,6 +140,25 @@ In data analysis and machine learning, it's essential to convert categorical var
 ### Summary of Changes
 By converting these categorical variables into numerical formats, we enable our dataset to be suitable for various analytical and machine learning tasks. It's crucial to apply these mappings consistently across the dataset to ensure data integrity and reliable analysis. This systematic approach not only prepares the data for model training but also facilitates a clearer understanding of the relationships between variables.
 
+---
+
+### Data Preprocessing
+
+The dataset contains 649 rows and 33 columns. Each column is of integer type, which suggests encoded categorical and continuous data. Some important columns likely include grades (G1, G2, G3), absences, and various attributes related to the student's environment and lifestyle.
+
+- outliers using Z-score analysis for the continuous variables ​​
+
+The analysis identified several outliers in the data:
+
+Significant outliers were detected in columns like traveltime (16), failures (14), famrel (22), Dalc (17), absences (11), and G3 (16).
+Other columns had a few outliers, such as age, G1, and G2.
+The data was then normalized using Min-Max scaling, bringing each feature’s values into a range between 0 and 1. This technique maintains the distribution of the original data but rescales it for easier analysis, especially for machine learning models that may be sensitive to varying feature scales.
+
+
+
+
+
+
 
 <img src="https://github.com/user-attachments/assets/2ae218db-4d85-4617-8cb8-fedf967a90f4" alt="Header 5" width="1100" height="290" />
 
