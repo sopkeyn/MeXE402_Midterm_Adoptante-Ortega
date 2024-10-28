@@ -146,6 +146,9 @@ By converting these categorical variables into numerical formats, we enable our 
 
 The dataset contains 649 rows and 33 columns. Each column is of integer type, which suggests encoded categorical and continuous data. Some important columns likely include grades (G1, G2, G3), absences, and various attributes related to the student's environment and lifestyle.
 
+![Screenshot 2024-10-29 010009](https://github.com/user-attachments/assets/f423129b-8519-460f-b1fa-09af02ad9aad)
+
+
 Outliers were identified in this dataset to understand and handle anomalous data points effectively. Here’s the approach taken:
 
 1. **Outlier Identification**:
