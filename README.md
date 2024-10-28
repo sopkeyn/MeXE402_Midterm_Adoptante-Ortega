@@ -146,13 +146,15 @@ By converting these categorical variables into numerical formats, we enable our 
 
 The dataset contains 649 rows and 33 columns. Each column is of integer type, which suggests encoded categorical and continuous data. Some important columns likely include grades (G1, G2, G3), absences, and various attributes related to the student's environment and lifestyle.
 
-- outliers using Z-score analysis for the continuous variables ​​
+**Outliers** using Z-score analysis for the continuous variables ​​
 
-The analysis identified several outliers in the data:
-
-Significant outliers were detected in columns like traveltime (16), failures (14), famrel (22), Dalc (17), absences (11), and G3 (16).
-Other columns had a few outliers, such as age, G1, and G2.
+-Significant outliers were detected in columns like traveltime (16), failures (14), famrel (22), Dalc (17), absences (11), and G3 (16).
+-Fewer outliers were present in columns such as age, G1, and G2, showing relatively stable distributions.
 The data was then normalized using Min-Max scaling, bringing each feature’s values into a range between 0 and 1. This technique maintains the distribution of the original data but rescales it for easier analysis, especially for machine learning models that may be sensitive to varying feature scales.
+
+**Data Normalization**
+
+For normalization, we used Min-Max scaling, transforming values between 0 and 1. This ensures that all features contribute equally to analyses or machine learning models.
 
 
 
