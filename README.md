@@ -175,6 +175,12 @@ X_{normalized} = \frac{X - X_{min}}{X_{max} - X_{min}}
 
 This normalized data is now ready for analysis or modeling, where each feature contributes proportionally.
 
+The linear regression model has been trained to predict the final grade (G3). Here are the evaluation results on the test set:
+
+**Mean Squared Error (MSE): 1.462**
+**R-squared (R²): 0.850**
+The R² score of **0.85** indicates that the model explains about **85%** of the variance in the final grade (G3). This suggests a reasonably good fit for the data, though there is still some room for improvement.
+
 ---
 
 
