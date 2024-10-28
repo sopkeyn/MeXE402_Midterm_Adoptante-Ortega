@@ -177,7 +177,10 @@ This normalized data is now ready for analysis or modeling, where each feature c
 
 The linear regression model has been trained to predict the final grade (G3). Here are the evaluation results on the test set:
 
-**INTERPRETATION: Model's Predictive Power**
+###**Model Implementation**
+###**Evaluation Metrics: Calculate R-squared and Mean Squared Error**
+
+###**INTERPRETATION: Model's Predictive Power**
 The predictive power of the model can be assessed using metrics like R-squared and Mean Squared Error (MSE):
 
 **R-squared:**
