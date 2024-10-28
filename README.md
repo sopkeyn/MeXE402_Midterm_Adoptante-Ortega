@@ -177,6 +177,19 @@ This normalized data is now ready for analysis or modeling, where each feature c
 
 The linear regression model has been trained to predict the final grade (G3). Here are the evaluation results on the test set:
 
+**INTERPRETATION: Model's Predictive Power**
+The predictive power of the model can be assessed using metrics like R-squared and Mean Squared Error (MSE):
+
+**R-squared:**
+
+R-squared indicates the proportion of the variance in the dependent variable that can be explained by the independent variables. An R-squared value close to 1 suggests that the model explains a significant portion of the variability in student performance. For instance, an R-squared of 0.85 means that 85% of the variability in final grades can be accounted for by the predictors in the model.
+
+**Mean Squared Error (MSE):**
+
+MSE provides a measure of the average squared differences between predicted and actual final grades. A lower MSE indicates better predictive accuracy. For example, an MSE of 10 suggests that, on average, the model's predictions deviate from the actual grades by the square root of 10 (approximately 3.16 points).
+
+Conclusion
+Understanding the coefficients and the model's predictive power helps educators and stakeholders identify key factors influencing student performance. This knowledge can guide interventions, such as promoting effective study habits or improving attendance policies. Ultimately, leveraging predictive modeling can lead to better educational outcomes by tailoring strategies to support student success.
 **Mean Squared Error (MSE): 1.462**
 **R-squared (R²): 0.850**
 The R² score of **0.85** indicates that the model explains about **85%** of the variance in the final grade (G3). This suggests a reasonably good fit for the data, though there is still some room for improvement.
