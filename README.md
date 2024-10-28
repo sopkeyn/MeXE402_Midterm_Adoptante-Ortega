@@ -146,17 +146,36 @@ By converting these categorical variables into numerical formats, we enable our 
 
 The dataset contains 649 rows and 33 columns. Each column is of integer type, which suggests encoded categorical and continuous data. Some important columns likely include grades (G1, G2, G3), absences, and various attributes related to the student's environment and lifestyle.
 
-**Outliers** using Z-score analysis for the continuous variables ​​
+Outliers were identified in this dataset to understand and handle anomalous data points effectively. Here’s the approach taken:
 
--Significant outliers were detected in columns like traveltime (16), failures (14), famrel (22), Dalc (17), absences (11), and G3 (16).
+1. **Outlier Identification**:
+   - We used **Z-score analysis** for continuous variables. Observations with a Z-score greater than 3 or less than -3 were flagged as outliers.
+   - Outliers were primarily found in the following columns:
+     - `traveltime`: 16 outliers
+     - `failures`: 14 outliers
+     - `famrel`: 22 outliers
+     - `Dalc`: 17 outliers
+     - `absences`: 11 outliers
+     - `G3`: 16 outliers
 
--Fewer outliers were present in columns such as age, G1, and G2, showing relatively stable distributions.
-The data was then normalized using Min-Max scaling, bringing each feature’s values into a range between 0 and 1. This technique maintains the distribution of the original data but rescales it for easier analysis, especially for machine learning models that may be sensitive to varying feature scales.
+2. **Outlier Treatment**:
+   - Outliers were retained in the dataset but could be removed or capped based on future model needs.
+   - **Rationale**: Removing outliers can help in reducing noise, while keeping them may retain information about extreme values.
 
-**Data Normalization**
+### Data Normalization
 
-For normalization, Min-Max scaling were use transforming values between 0 and 1. This ensures that all features contribute equally to analyses or machine learning models.
+To make the data suitable for machine learning models and analyses sensitive to feature scale, Min-Max normalization was applied.
 
+- **Min-Max Scaling**: This approach scales each feature to a range between 0 and 1, preserving the distribution while ensuring equal weighting across features.
+
+Example of the normalization formula:
+\[
+X_{normalized} = \frac{X - X_{min}}{X_{max} - X_{min}}
+\]
+
+This normalized data is now ready for analysis or modeling, where each feature contributes proportionally.
+
+---
 
 
 
