@@ -164,7 +164,8 @@ Outliers were identified in this dataset to understand and handle anomalous data
 2. **Outlier Treatment**:
    - Outliers were retained in the dataset but could be removed or capped based on future model needs.
    - **Rationale**: Removing outliers can help in reducing noise, while keeping them may retain information about extreme values.
-
+  
+### Model Implementation
 
 ![Screenshot 2024-10-29 010536](https://github.com/user-attachments/assets/a51220d6-7d34-446d-931d-d3ce62a2adad)
 ![Screenshot 2024-10-29 010627](https://github.com/user-attachments/assets/15058142-6056-423f-9d77-af606c85cd8b)
