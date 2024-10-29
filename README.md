@@ -277,23 +277,37 @@ print("Predicted outcome:", single_prediction)
 **R-squared:**
 
 Calculate R-squared (R²)
-# Assuming `y_test` contains the true values and `y_pred` contains the predicted values from your model
+Assuming `y_test` contains the true values and `y_pred` contains the predicted values from your model
 
-# 1. R-squared Calculation
+**1. R-squared Calculation**
 r2 = r2_score(y_test, y_pred)
 print("R-squared:", r2)
 
 Explanation:
 R-squared (R²) measures the proportion of the variance in the dependent variable (y) that is predictable from the independent variables (X). It ranges from 0 to 1, with values close to 1 indicating a strong correlation between the observed values and the predicted values, meaning the model explains a large portion of the variability in the data.
 
-if **R² = 0.8566**, it suggests that approximately 85.66% of the variance in the dependent variable can be explained by the model.
+if **R² = 0.8566**, it suggests that approximately **85.66%** of the variance in the dependent variable can be explained by the model.
 
+**2.Adjusted R-squared Calculation**
+n = X_test.shape[0]  # Number of observations (rows in X_test)
+k = X_test.shape[1]  # Number of features (columns in X_test)
+adj_r2 = 1 - (1 - r2) * (n - 1) / (n - k - 1)
+print("Adjusted R-squared:", adj_r2)
 
-**Mean Squared Error (MSE):**
+Explanation:
+Adjusted R-squared adjusts the R² value by taking into account the number of features (k) in the model. This metric helps mitigate overfitting, as it penalizes the addition of features that do not contribute meaningfully to the model. Unlike R², Adjusted R² can decrease if a new feature doesn't improve the model.
+
+if **adj_r2 = 0.8093**, it suggests that about **80.93%** of the variance in y is explained by the model, adjusted for the number of features.
+
+**3.Mean Squared Error Calculation (MSE):**
 
 MSE provides a measure of the average squared differences between predicted and actual final grades. A lower MSE indicates better predictive accuracy. For example, an MSE of 10 suggests that, on average, the model's predictions deviate from the actual grades by the square root of 10 (approximately 3.16 points).
 
+mse = mean_squared_error(y_test, y_pred)
+print("Mean Squared Error (MSE):", mse)
 
+Explanation:
+Mean Squared Error (MSE) calculates the average of the squared differences between the actual values (y) and the predicted values (y_pred). It provides an indication of the model's prediction accuracy, with lower MSE values suggesting better model performance. MSE is in the same units as the square of the dependent variable, making it sensitive to outliers due to the squaring of errors.
 
 ---
 
