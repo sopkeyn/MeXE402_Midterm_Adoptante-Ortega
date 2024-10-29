@@ -193,6 +193,7 @@ MSE provides a measure of the average squared differences between predicted and 
 The predictive power of the model can be assessed using metrics like R-squared and Mean Squared Error (MSE):
 
 Understanding the coefficients and the model's predictive power helps educators and stakeholders identify key factors influencing student performance. This knowledge can guide interventions, such as promoting effective study habits or improving attendance policies. Ultimately, leveraging predictive modeling can lead to better educational outcomes by tailoring strategies to support student success.
+
 **Mean Squared Error (MSE): 1.462**
 
 **R-squared (R²): 0.850**
