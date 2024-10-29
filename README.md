@@ -333,21 +333,17 @@ If we want a clearer sense of the model’s prediction error in actual performan
 
 - **Root Mean Squared Error (RMSE)**: To better understand the predictive accuracy in the same units as the original data, we calculate the RMSE, which is the square root of the MSE. 
 
-  \[
-  \text{RMSE} = \sqrt{\text{MSE}} = \sqrt{1.462} \approx 1.21
-  \]
+This RMSE tells that, on average, the model’s predictions differ from actual performance scores by approximately 1.21 units. This is easier to interpret since it directly represents the error in the same units as the performance scores.
 
-This RMSE tells us that, on average, the model’s predictions differ from actual performance scores by approximately 1.21 units. This is easier to interpret since it directly represents the error in the same units as the performance scores.
+RMSE= MSE = 1.462 ≈1.21
+
+Root Mean Squared Error (RMSE): 1.2101531590175027
 
 **R-squared (R²): 0.850**
 
 The R² score of **0.85** indicates that the model explains about **85%** of the variance in the final grade (G3). This suggests a reasonably good fit for the data, though there is still some room for improvement.
 
 ---
-
-
-
-
 
 
 <img src="https://github.com/user-attachments/assets/2ae218db-4d85-4617-8cb8-fedf967a90f4" alt="Header 5" width="1100" height="290" />
