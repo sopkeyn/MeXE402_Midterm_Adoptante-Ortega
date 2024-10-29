@@ -269,7 +269,7 @@ print("Predicted outcome:", single_prediction)
 
 ---
 
-### Evaluation Metrics: Calculate R-squared and Mean Squared Error
+**Evaluation Metrics: Calculate R-squared and Mean Squared Error**
 
 ![Screenshot 2024-10-29 010914](https://github.com/user-attachments/assets/fe28eaae-c01b-4704-b3c5-f384d509facc)
 
