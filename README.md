@@ -327,7 +327,7 @@ Lower MSE: A lower MSE implies that the model predictions are closer to the actu
 
 Higher MSE: A higher MSE indicates larger average errors between predictions and actual values, meaning the model isn’t as accurate.
 
-If we want a clearer sense of the model’s prediction error in actual performance units, we can take the square root of the MSE to obtain the Root Mean Squared Error (RMSE):
+In a clearer sense of the model’s prediction error in actual performance units, the square root of the MSE to obtain the Root Mean Squared Error (RMSE):
 
 - **Mean Squared Error (MSE)**: The MSE value for the model is **1.462**. MSE is calculated as the average of the squared differences between actual and predicted values, providing insight into the accuracy of the model's predictions.
 
