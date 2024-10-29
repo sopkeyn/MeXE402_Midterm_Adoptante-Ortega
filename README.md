@@ -188,6 +188,7 @@ Explanation of the Features Used: This feature list contains values representing
 # Making a prediction for a single data point with feature values
 
 single_student_features = [
+
     6,   # sx: student's sex
     
     0,   # age: student's age
