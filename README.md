@@ -194,7 +194,9 @@ The predictive power of the model can be assessed using metrics like R-squared a
 
 Understanding the coefficients and the model's predictive power helps educators and stakeholders identify key factors influencing student performance. This knowledge can guide interventions, such as promoting effective study habits or improving attendance policies. Ultimately, leveraging predictive modeling can lead to better educational outcomes by tailoring strategies to support student success.
 **Mean Squared Error (MSE): 1.462**
+
 **R-squared (R²): 0.850**
+
 The R² score of **0.85** indicates that the model explains about **85%** of the variance in the final grade (G3). This suggests a reasonably good fit for the data, though there is still some room for improvement.
 
 ---
