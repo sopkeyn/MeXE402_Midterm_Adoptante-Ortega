@@ -266,8 +266,6 @@ print("Predicted outcome:", single_prediction)
 
 ![Screenshot 2024-10-29 010651](https://github.com/user-attachments/assets/499d83d5-f0d8-4bc4-9d41-595cd80a0847)
 
-Here’s a breakdown of the LinearRegression model implementation, including each step and its components, which will give you a clearer understanding of how the model functions:
-
 
 ---
 
