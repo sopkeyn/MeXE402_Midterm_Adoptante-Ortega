@@ -329,7 +329,11 @@ Higher MSE: A higher MSE indicates larger average errors between predictions and
 
 If we want a clearer sense of the model’s prediction error in actual performance units, we can take the square root of the MSE to obtain the Root Mean Squared Error (RMSE):
 
- \[
+- **Mean Squared Error (MSE)**: The MSE value for the model is **1.462**. MSE is calculated as the average of the squared differences between actual and predicted values, providing insight into the accuracy of the model's predictions.
+
+- **Root Mean Squared Error (RMSE)**: To better understand the predictive accuracy in the same units as the original data, we calculate the RMSE, which is the square root of the MSE. 
+
+  \[
   \text{RMSE} = \sqrt{\text{MSE}} = \sqrt{1.462} \approx 1.21
   \]
 
