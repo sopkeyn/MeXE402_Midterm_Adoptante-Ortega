@@ -258,7 +258,8 @@ single_student_features =
     11    # G3: final grade
 ]
 
-# Predicting the outcome for the single student
+**Predicting the outcome for the single student**
+
 single_prediction = model.predict([single_student_features])
 print("Predicted outcome:", single_prediction)
 
@@ -269,17 +270,34 @@ print("Predicted outcome:", single_prediction)
 
 ---
 
-**Evaluation Metrics: Calculate R-squared and Mean Squared Error**
+### Evaluation Metrics: Calculate R-squared and Mean Squared Error
 
 ![Screenshot 2024-10-29 010914](https://github.com/user-attachments/assets/fe28eaae-c01b-4704-b3c5-f384d509facc)
 
 **R-squared:**
 
-R-squared indicates the proportion of the variance in the dependent variable that can be explained by the independent variables. An R-squared value close to 1 suggests that the model explains a significant portion of the variability in student performance. For instance, an R-squared of 0.85 means that 85% of the variability in final grades can be accounted for by the predictors in the model.
+Calculate R-squared (R²)
+# Assuming `y_test` contains the true values and `y_pred` contains the predicted values from your model
+
+# 1. R-squared Calculation
+r2 = r2_score(y_test, y_pred)
+print("R-squared:", r2)
+
+# Explanation:
+# R-squared (R²) measures the proportion of the variance in the dependent variable (y) that is predictable
+# from the independent variables (X). It ranges from 0 to 1, with values close to 1 indicating a strong
+# correlation between the observed values and the predicted values, meaning the model explains a large
+# portion of the variability in the data.
+
+# For example, if R² = 0.8566, it suggests that approximately 85.66% of the variance in the dependent
+# variable can be explained by the model.
+
 
 **Mean Squared Error (MSE):**
 
 MSE provides a measure of the average squared differences between predicted and actual final grades. A lower MSE indicates better predictive accuracy. For example, an MSE of 10 suggests that, on average, the model's predictions deviate from the actual grades by the square root of 10 (approximately 3.16 points).
+
+
 
 ---
 
