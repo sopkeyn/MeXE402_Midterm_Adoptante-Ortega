@@ -287,7 +287,7 @@ R-squared (R²) measures the proportion of the variance in the dependent variabl
 
 if **R² = 0.8566**, it suggests that approximately **85.66%** of the variance in the dependent variable can be explained by the model.
 
-**2.Adjusted R-squared Calculation**
+**2. Adjusted R-squared Calculation**
 n = X_test.shape[0]  # Number of observations (rows in X_test)
 k = X_test.shape[1]  # Number of features (columns in X_test)
 adj_r2 = 1 - (1 - r2) * (n - 1) / (n - k - 1)
@@ -298,7 +298,7 @@ Adjusted R-squared adjusts the R² value by taking into account the number of fe
 
 if **adj_r2 = 0.8093**, it suggests that about **80.93%** of the variance in y is explained by the model, adjusted for the number of features.
 
-**3.Mean Squared Error Calculation (MSE):**
+**3. Mean Squared Error Calculation (MSE):**
 
 MSE provides a measure of the average squared differences between predicted and actual final grades. A lower MSE indicates better predictive accuracy. For example, an MSE of 10 suggests that, on average, the model's predictions deviate from the actual grades by the square root of 10 (approximately 3.16 points).
 
