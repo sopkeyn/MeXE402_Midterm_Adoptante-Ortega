@@ -288,10 +288,13 @@ R-squared (R²) measures the proportion of the variance in the dependent variabl
 if **R² = 0.8566**, it suggests that approximately **85.66%** of the variance in the dependent variable can be explained by the model.
 
 **2. Adjusted R-squared Calculation**
+
 n = X_test.shape[0]  # Number of observations (rows in X_test)
+
 k = X_test.shape[1]  # Number of features (columns in X_test)
+
 adj_r2 = 1 - (1 - r2) * (n - 1) / (n - k - 1)
-print("Adjusted R-squared:", adj_r2)
+
 
 Explanation:
 Adjusted R-squared adjusts the R² value by taking into account the number of features (k) in the model. This metric helps mitigate overfitting, as it penalizes the addition of features that do not contribute meaningfully to the model. Unlike R², Adjusted R² can decrease if a new feature doesn't improve the model.
