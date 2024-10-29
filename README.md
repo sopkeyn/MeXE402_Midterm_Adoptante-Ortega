@@ -171,7 +171,16 @@ Outliers were identified in this dataset to understand and handle anomalous data
 
 ![Screenshot 2024-10-29 010536](https://github.com/user-attachments/assets/a51220d6-7d34-446d-931d-d3ce62a2adad)
 ![Screenshot 2024-10-29 010627](https://github.com/user-attachments/assets/15058142-6056-423f-9d77-af606c85cd8b)
+
+The .fit() method is used to train or “fit” the model. It takes in two arguments:
+
+X_train: the training data's feature set (independent variables).
+y_train: the training data’s target variable (dependent variable)
+
 ![Screenshot 2024-10-29 010651](https://github.com/user-attachments/assets/499d83d5-f0d8-4bc4-9d41-595cd80a0847)
+
+Here’s a breakdown of the LinearRegression model implementation, including each step and its components, which will give you a clearer understanding of how the model functions:
+
 
 ---
 
