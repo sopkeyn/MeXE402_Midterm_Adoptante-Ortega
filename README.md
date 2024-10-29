@@ -164,13 +164,16 @@ Outliers were identified in this dataset to understand and handle anomalous data
 2. **Outlier Treatment**:
    - Outliers were retained in the dataset but could be removed or capped based on future model needs.
    - **Rationale**: Removing outliers can help in reducing noise, while keeping them may retain information about extreme values.
-  
+     
+---  
+
 ### Model Implementation
 
 ![Screenshot 2024-10-29 010536](https://github.com/user-attachments/assets/a51220d6-7d34-446d-931d-d3ce62a2adad)
 ![Screenshot 2024-10-29 010627](https://github.com/user-attachments/assets/15058142-6056-423f-9d77-af606c85cd8b)
 ![Screenshot 2024-10-29 010651](https://github.com/user-attachments/assets/499d83d5-f0d8-4bc4-9d41-595cd80a0847)
 
+---
 
 ### Evaluation Metrics: Calculate R-squared and Mean Squared Error
 
@@ -183,6 +186,8 @@ R-squared indicates the proportion of the variance in the dependent variable tha
 **Mean Squared Error (MSE):**
 
 MSE provides a measure of the average squared differences between predicted and actual final grades. A lower MSE indicates better predictive accuracy. For example, an MSE of 10 suggests that, on average, the model's predictions deviate from the actual grades by the square root of 10 (approximately 3.16 points).
+
+---
 
 ### INTERPRETATION: Model's Predictive Power
 The predictive power of the model can be assessed using metrics like R-squared and Mean Squared Error (MSE):
