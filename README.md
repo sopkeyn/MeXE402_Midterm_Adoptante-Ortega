@@ -142,7 +142,7 @@ By converting these categorical variables into numerical formats, we enable our 
 
 ---
 
-### Data Preprocessing
+### 𝐃𝐚𝐭𝐚 𝐏𝐫𝐞𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠
 
 The dataset contains 649 rows and 33 columns. Each column is of integer type, which suggests encoded categorical and continuous data. Some important columns likely include grades (G1, G2, G3), absences, and various attributes related to the student's environment and lifestyle.
 
@@ -167,8 +167,7 @@ Outliers were identified in this dataset to understand and handle anomalous data
      
 ---  
 
-### Model Implementation
-
+### 𝐌𝐨𝐝𝐞𝐥 𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧
 ![Screenshot 2024-10-29 010536](https://github.com/user-attachments/assets/a51220d6-7d34-446d-931d-d3ce62a2adad)
 
 The `.fit()` method is used to train or “fit” the model. It takes in two arguments:
@@ -270,7 +269,7 @@ print("Predicted outcome:", single_prediction)
 
 ---
 
-### Evaluation Metrics: Calculate R-squared and Mean Squared Error
+### 𝐄𝐯𝐚𝐥𝐮𝐚𝐭𝐢𝐨𝐧 𝐌𝐞𝐭𝐫𝐢𝐜𝐬: 𝐂𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐞 𝐑-𝐬𝐪𝐮𝐚𝐫𝐞𝐝 𝐚𝐧𝐝 𝐌𝐞𝐚𝐧 𝐒𝐪𝐮𝐚𝐫𝐞𝐝 𝐄𝐫𝐫𝐨𝐫
 
 ![Screenshot 2024-10-29 010914](https://github.com/user-attachments/assets/fe28eaae-c01b-4704-b3c5-f384d509facc)
 
@@ -311,7 +310,8 @@ Mean Squared Error (MSE) calculates the average of the squared differences betwe
 
 ---
 
-### INTERPRETATION: Model's Predictive Power
+### 𝐈𝐍𝐓𝐄𝐑𝐏𝐑𝐄𝐓𝐀𝐓𝐈𝐎𝐍: 𝐌𝐨𝐝𝐞𝐥'𝐬 𝐏𝐫𝐞𝐝𝐢𝐜𝐭𝐢𝐯𝐞 𝐏𝐨𝐰𝐞𝐫
+
 The predictive power of the model can be assessed using metrics like R-squared and Mean Squared Error (MSE):
 
 Understanding the coefficients and the model's predictive power helps educators and stakeholders identify key factors influencing student performance. This knowledge can guide interventions, such as promoting effective study habits or improving attendance policies. Ultimately, leveraging predictive modeling can lead to better educational outcomes by tailoring strategies to support student success.
