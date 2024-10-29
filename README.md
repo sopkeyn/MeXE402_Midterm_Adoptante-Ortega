@@ -179,6 +179,8 @@ The `.fit()` method is used to train or “fit” the model. It takes in two arg
 - The `.predict()` method uses the trained model to predict outcomes based on the `X_test` data.
 - This method outputs predictions (stored in `y_pred`) for each observation in `X_test`.
 
+- This array represents the model’s predicted output values for each corresponding test example.
+
   ![Screenshot 2024-10-29 010627](https://github.com/user-attachments/assets/15058142-6056-423f-9d77-af606c85cd8b)
   
 In this code, we are making a prediction for a single data point represented by a list of feature values. Each feature corresponds to a specific attribute (like age, address, parental education, family support, etc.) relevant to the model’s prediction.
