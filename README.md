@@ -165,22 +165,6 @@ Outliers were identified in this dataset to understand and handle anomalous data
    - Outliers were retained in the dataset but could be removed or capped based on future model needs.
    - **Rationale**: Removing outliers can help in reducing noise, while keeping them may retain information about extreme values.
 
-### Data Normalization
-
-To make the data suitable for machine learning models and analyses sensitive to feature scale, Min-Max normalization was applied.
-
-- **Min-Max Scaling**: This approach scales each feature to a range between 0 and 1, preserving the distribution while ensuring equal weighting across features.
-
-Example of the normalization formula:
-\[
-X_{normalized} = \frac{X - X_{min}}{X_{max} - X_{min}}
-\]
-
-This normalized data is now ready for analysis or modeling, where each feature contributes proportionally.
-
-The linear regression model has been trained to predict the final grade (G3). Here are the evaluation results on the test set:
-
-### Model Implementation
 
 ![Screenshot 2024-10-29 010536](https://github.com/user-attachments/assets/a51220d6-7d34-446d-931d-d3ce62a2adad)
 ![Screenshot 2024-10-29 010627](https://github.com/user-attachments/assets/15058142-6056-423f-9d77-af606c85cd8b)
