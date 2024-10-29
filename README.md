@@ -175,8 +175,55 @@ The `.fit()` method is used to train or “fit” the model. It takes in two arg
 
 - `X_train`: the training data's feature set (independent variables).
 - `y_train`: the training data’s target variable (dependent variable).
-  
-![Screenshot 2024-10-29 010627](https://github.com/user-attachments/assets/15058142-6056-423f-9d77-af606c85cd8b)
+
+- The `.predict()` method uses the trained model to predict outcomes based on the `X_test` data.
+- This method outputs predictions (stored in `y_pred`) for each observation in `X_test`.
+
+  ![Screenshot 2024-10-29 010627](https://github.com/user-attachments/assets/15058142-6056-423f-9d77-af606c85cd8b)
+
+  In this code, we are making a prediction for a single data point represented by a list of feature values. Each feature corresponds to a specific attribute (like age, address, parental education, family support, etc.) relevant to the model’s prediction.
+
+Explanation of the Features Used: This feature list contains values representing various characteristics for a single student, such as:
+
+# Making a prediction for a single data point with feature values
+single_student_features = [
+    6,   # sx: student's sex
+    0,   # age: student's age
+    18,  # address
+    3000,  # family support
+    3200,  # parental support
+    3500,  # Medu: mother's education level
+    4,   # Fedu: father's education level
+    4,   # Mjob: mother's job
+    3600, # Fjob: father's job
+    3900, # reason for choosing school
+    4100, # guardian
+    4400, # travel time
+    2,    # study time
+    2,    # failures
+    0,    # schoolsup: school support
+    1,    # famsup: family support
+    2,    # paid tutoring
+    2,    # extracurricular activities
+    2,    # nursery attended
+    1,    # higher education aspiration
+    1,    # internet access
+    2,    # romantic relationship
+    2,    # family relations
+    4,    # free time after school
+    3,    # frequency of going out
+    4,    # weekday alcohol consumption
+    1,    # weekend alcohol consumption
+    1,    # health status
+    3,    # number of school absences
+    4,    # G1: first period grade
+    0,    # G2: second period grade
+    11    # G3: final grade
+]
+
+# Predicting the outcome for the single student
+single_prediction = model.predict([single_student_features])
+print("Predicted outcome:", single_prediction)
 
 
 
