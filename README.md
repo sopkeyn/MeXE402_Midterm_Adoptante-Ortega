@@ -318,6 +318,23 @@ Understanding the coefficients and the model's predictive power helps educators 
 
 **Mean Squared Error (MSE): 1.462**
 
+Interpretation of MSE Value (1.462)
+An MSE of 1.462 indicates that, on average, the square of the difference between actual and predicted values is 1.462 units. The squaring part is essential because it penalizes larger errors more heavily than smaller ones. However, since this value is squared, it's more challenging to interpret directly in terms of the actual student performance scale (e.g., grades on a 0-100 scale).
+
+To interpret this MSE, we could consider the following:
+
+Lower MSE: A lower MSE implies that the model predictions are closer to the actual values, signifying better predictive accuracy.
+
+Higher MSE: A higher MSE indicates larger average errors between predictions and actual values, meaning the model isn’t as accurate.
+
+If we want a clearer sense of the model’s prediction error in actual performance units, we can take the square root of the MSE to obtain the Root Mean Squared Error (RMSE):
+
+ \[
+  \text{RMSE} = \sqrt{\text{MSE}} = \sqrt{1.462} \approx 1.21
+  \]
+
+This RMSE tells us that, on average, the model’s predictions differ from actual performance scores by approximately 1.21 units. This is easier to interpret since it directly represents the error in the same units as the performance scores.
+
 **R-squared (R²): 0.850**
 
 The R² score of **0.85** indicates that the model explains about **85%** of the variance in the final grade (G3). This suggests a reasonably good fit for the data, though there is still some room for improvement.
