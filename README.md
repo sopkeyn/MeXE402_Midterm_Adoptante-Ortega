@@ -283,14 +283,10 @@ Calculate R-squared (R²)
 r2 = r2_score(y_test, y_pred)
 print("R-squared:", r2)
 
-# Explanation:
-# R-squared (R²) measures the proportion of the variance in the dependent variable (y) that is predictable
-# from the independent variables (X). It ranges from 0 to 1, with values close to 1 indicating a strong
-# correlation between the observed values and the predicted values, meaning the model explains a large
-# portion of the variability in the data.
+Explanation:
+R-squared (R²) measures the proportion of the variance in the dependent variable (y) that is predictable from the independent variables (X). It ranges from 0 to 1, with values close to 1 indicating a strong correlation between the observed values and the predicted values, meaning the model explains a large portion of the variability in the data.
 
-# For example, if R² = 0.8566, it suggests that approximately 85.66% of the variance in the dependent
-# variable can be explained by the model.
+if **R² = 0.8566**, it suggests that approximately 85.66% of the variance in the dependent variable can be explained by the model.
 
 
 **Mean Squared Error (MSE):**
