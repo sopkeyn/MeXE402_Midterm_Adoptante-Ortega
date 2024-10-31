@@ -316,10 +316,15 @@ The correlation analysis reveals key insights into factors impacting students' f
 
 -Negative Behavioral Factors: Alcohol consumption (both daily and weekend use, Dalc and Walc) and failures have negative correlations with G3, implying that these behaviors might impact student performance negatively.
 
+https://files.oaiusercontent.com/file-IGK8JWCid4Aj7K7wmuceKzKf?se=2024-10-31T14%3A36%3A49Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D6a8e1134-3420-4b9f-8389-181036ee0036&sig=mXwmWTXfhtFJovzCnnbObiUZL%2BI8WPIHOMRjxtLitKE%3D
+
 **Methodology**
 The analysis utilizes correlation and visualization to identify patterns and relationships between student background, behavioral factors, and academic performance.
 
 Findings Summary Table
+
+![Screenshot 2024-10-31 223548](https://github.com/user-attachments/assets/9a2ecea3-9ec8-4305-b055-63a0a8ca0b02)
+
 Factor	Correlation with G3
 G2 (previous grade)	0.92
 G1 (initial grade)	0.83
