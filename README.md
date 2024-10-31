@@ -316,24 +316,15 @@ The correlation analysis reveals key insights into factors impacting students' f
 
 -Negative Behavioral Factors: Alcohol consumption (both daily and weekend use, Dalc and Walc) and failures have negative correlations with G3, implying that these behaviors might impact student performance negatively.
 
-https://files.oaiusercontent.com/file-IGK8JWCid4Aj7K7wmuceKzKf?se=2024-10-31T14%3A36%3A49Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D6a8e1134-3420-4b9f-8389-181036ee0036&sig=mXwmWTXfhtFJovzCnnbObiUZL%2BI8WPIHOMRjxtLitKE%3D
+![student_performance_heatmap](https://github.com/user-attachments/assets/be4775e7-7325-4f28-951d-a4679c1679ea)
 
 **Methodology**
 The analysis utilizes correlation and visualization to identify patterns and relationships between student background, behavioral factors, and academic performance.
 
 Findings Summary Table
 
-![Screenshot 2024-10-31 223548](https://github.com/user-attachments/assets/9a2ecea3-9ec8-4305-b055-63a0a8ca0b02)
+![student_performance_table](https://github.com/user-attachments/assets/4b94ce2e-33e3-44b8-8736-ec75364d927c)
 
-Factor	Correlation with G3
-G2 (previous grade)	0.92
-G1 (initial grade)	0.83
-Study time	0.25
-Mother’s Education (Medu)	0.24
-Father’s Education (Fedu)	0.21
-Family Relations (famrel)	0.06
-Alcohol Consumption (Dalc, Walc)	-0.20, -0.18
-Failures	-0.39
 
 **Discussion**
 These results highlight the role of family education, consistent academic performance, and behavioral habits on academic outcomes. However, this analysis may be limited by potential data inconsistencies across merged files and lack of control for external variables like socioeconomic factors.
