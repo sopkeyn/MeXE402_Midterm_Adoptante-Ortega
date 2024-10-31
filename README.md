@@ -348,7 +348,7 @@ This analysis focuses on **Student Performance** and **Heart Disease** datasets,
   - **Heart Disease**: Logistic regression for predicting disease presence.
 
 - **Model Evaluation**:
-  - For linear regression: Evaluated with R-squared, MAE, and RMSE.
+  - For linear regression: Evaluated with R-squared, MSE, and RMSE.
   - For logistic regression: Assessed using accuracy, precision, recall, F1-score, and AUC-ROC.
 
 ---
