@@ -174,8 +174,7 @@ Explanation of the Features Used: This feature list contains values representing
 
 **Making a prediction for a single data point with feature values**
 
-# Define the feature set (independent variables)
-# Define the training data's feature set (independent variables)
+𝐃𝐞𝐟𝐢𝐧𝐞 𝐭𝐡𝐞 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐬𝐞𝐭 (𝐢𝐧𝐝𝐞𝐩𝐞𝐧𝐝𝐞𝐧𝐭 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬)
 X_train = [
 
     '6',    # sx: student's sex 
@@ -210,12 +209,7 @@ X_train = [
     '4',    # G1: first period grade
     '0'     # G2: second period grade
 ]
-
-# Define the training data's target variable (dependent variable)
-y_train = '11'  # G3: final grade
-
-
-# Target variable (dependent variable)
+𝐓𝐚𝐫𝐠𝐞𝐭 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞 (𝐝𝐞𝐩𝐞𝐧𝐝𝐞𝐧𝐭 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞)
 y_train = 11  # G3: final grade
 
 **Predicting the outcome for the single student**
