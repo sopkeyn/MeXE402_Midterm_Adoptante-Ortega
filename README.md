@@ -308,3 +308,27 @@ The R² score of **0.85** indicates that the model explains about **85%** of the
 
 # 𝐇𝐞𝐚𝐫𝐭 𝐃𝐢𝐬𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐚𝐬𝐞𝐭
 
+The correlation analysis reveals key insights into factors impacting students' final grades (G3):
+
+-High Correlation with Previous Grades: Both G1 and G2 grades are strongly positively correlated with the final grade (G3), indicating consistent academic performance.
+
+-Positive Family Influence: Parental education (Medu and Fedu) and study time are positively correlated with G3, suggesting that family support and study time are linked to better outcomes.
+
+-Negative Behavioral Factors: Alcohol consumption (both daily and weekend use, Dalc and Walc) and failures have negative correlations with G3, implying that these behaviors might impact student performance negatively.
+
+**Methodology**
+The analysis utilizes correlation and visualization to identify patterns and relationships between student background, behavioral factors, and academic performance.
+
+Findings Summary Table
+Factor	Correlation with G3
+G2 (previous grade)	0.92
+G1 (initial grade)	0.83
+Study time	0.25
+Mother’s Education (Medu)	0.24
+Father’s Education (Fedu)	0.21
+Family Relations (famrel)	0.06
+Alcohol Consumption (Dalc, Walc)	-0.20, -0.18
+Failures	-0.39
+
+**Discussion**
+These results highlight the role of family education, consistent academic performance, and behavioral habits on academic outcomes. However, this analysis may be limited by potential data inconsistencies across merged files and lack of control for external variables like socioeconomic factors.
