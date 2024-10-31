@@ -306,19 +306,24 @@ The R² score of **0.85** indicates that the model explains about **85%** of the
 
 <img src="https://github.com/user-attachments/assets/2ae218db-4d85-4617-8cb8-fedf967a90f4" alt="Header 5" width="1100" height="290" />
 
+Correlation Analysis of Student Grades
+This analysis examines factors that significantly influence students' final grades (G3), based on correlations with various attributes:
+
+Key Findings
+High Correlation with Previous Grades:
+The analysis reveals a strong positive correlation between students' initial grades (G1 and G2) and their final grade (G3). Students who perform well early in the term tend to maintain or improve their performance. This consistency likely reflects strong foundational knowledge and effective study habits that support ongoing academic success.
+
+Positive Family Influence:
+Parental education levels (Medu and Fedu) and the time students dedicate to studying both positively correlate with G3. This suggests that family background and support play a key role in academic achievement. Higher parental education may reflect a family environment that values education, and increased study time allows students to engage deeply with their coursework, contributing to better outcomes.
+
+Negative Behavioral Factors:
+Alcohol consumption—both during the week (Dalc) and on weekends (Walc)—and past academic failures are negatively correlated with final grades. These findings suggest that behaviors such as alcohol use may reduce the focus and energy necessary for academic success, while previous academic failures could impact students’ confidence and future performance. Addressing these factors may help improve student outcomes.
+
 # 𝐇𝐞𝐚𝐫𝐭 𝐃𝐢𝐬𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐚𝐬𝐞𝐭
 
 ---
 
-The correlation analysis reveals key insights into factors impacting students' final grades (G3):
 
--High Correlation with Previous Grades: Both G1 and G2 grades are strongly positively correlated with the final grade (G3), indicating consistent academic performance.
-
--Positive Family Influence: Parental education (Medu and Fedu) and study time are positively correlated with G3, suggesting that family support and study time are linked to better outcomes.
-
--Negative Behavioral Factors: Alcohol consumption (both daily and weekend use, Dalc and Walc) and failures have negative correlations with G3, implying that these behaviors might impact student performance negatively.
-
-![student_performance_heatmap](https://github.com/user-attachments/assets/be4775e7-7325-4f28-951d-a4679c1679ea)
 
 **Methodology**
 The analysis utilizes correlation and visualization to identify patterns and relationships between student background, behavioral factors, and academic performance.
