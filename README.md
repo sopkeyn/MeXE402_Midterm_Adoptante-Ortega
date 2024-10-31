@@ -178,8 +178,11 @@ Explanation of the Features Used: This feature list contains values representing
 X_train = [
 
     6,    # sx: student's sex
+    
     0,    # age: student's age
+    
     18,   # address
+
     3000, # family support
     3200, # parental support
     3500, # Medu: mother's education level
