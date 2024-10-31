@@ -308,6 +308,8 @@ The R² score of **0.85** indicates that the model explains about **85%** of the
 
 # 𝐇𝐞𝐚𝐫𝐭 𝐃𝐢𝐬𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐚𝐬𝐞𝐭
 
+---
+
 The correlation analysis reveals key insights into factors impacting students' final grades (G3):
 
 -High Correlation with Previous Grades: Both G1 and G2 grades are strongly positively correlated with the final grade (G3), indicating consistent academic performance.
