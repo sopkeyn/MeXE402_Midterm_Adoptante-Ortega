@@ -156,16 +156,17 @@ Outliers were identified in this dataset to understand and handle anomalous data
 1. **Outlier Identification**:
    - We used **Z-score analysis** for continuous variables. Observations with a Z-score greater than 3 or less than -3 were flagged as outliers.
    - Outliers were primarily found in the following columns:
-     - `traveltime`: 16 outliers
-     - `failures`: 14 outliers
-     - `famrel`: 22 outliers
-     - `Dalc`: 17 outliers
-     - `absences`: 11 outliers
-     - `G3`: 16 outliers
+     - `traveltime`(travel time to school): 16 outliers. Extreme travel times might affect student performance due to fatigue or limited study time.
+     - `failures`(number of past class failures): 14 outliers. High numbers of failures indicate students who may be struggling significantly.
+     - `famrel`(quality of family relationships): 22 outliers. Outliers here can reflect extreme family dynamics, impacting mental health and performance.
+     - `Dalc` (workday alcohol consumption): 17 outliers. High or low alcohol consumption levels could influence focus and cognitive function.
+     - `absences`(number of school absences): 11 outliers. Higher absences could lead to poor academic performance due to missed content.
+     - `G3`(final grade): 16 outliers. Low or exceptionally high grades are notable as they reflect extreme performance levels, both good and bad.
 
 2. **Outlier Treatment**:
-   - Outliers were retained in the dataset but could be removed or capped based on future model needs.
-   - **Rationale**: Removing outliers can help in reducing noise, while keeping them may retain information about extreme values.
+   - Outliers were retained in the dataset but could be removed or capped based on model requirements.
+   - **Rationale**: taining outliers may provide insights into extreme behaviors that influence academic success or failure. Removing them, however, could reduce noise in the dataset for more accurate modeling 
+ results. Future adjustments could include capping extreme values or excluding them based on the model’s sensitivity to outliers.
      
 ---  
 
