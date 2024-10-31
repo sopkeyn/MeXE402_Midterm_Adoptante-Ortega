@@ -175,38 +175,36 @@ Explanation of the Features Used: This feature list contains values representing
 **Making a prediction for a single data point with feature values**
 
 # Define the feature set (independent variables)
-X_train = [
-
-    '6',    # sx: student's sex 
-    '0',    # age: student's age
-    '18',   # address
-    '3000, # family support
-    '3200', # parental support
-    '3500', # Medu: mother's education level
-    '4',    # Fedu: father's education level
-    '4',    # Mjob: mother's job
-    '3600', # Fjob: father's job
-    '3900', # reason for choosing school
-    '4100', # guardian
-    '4400', # travel time
-    '2',    # study time
-    '2',    # failures
-    '0',    # schoolsup: school support
-    '1',    # famsup: family support
-    '2',    # paid tutoring
-    '2',    # extracurricular activities
-    '2',    # nursery attended
-    '1',    # higher education aspiration
-    '1',    # internet access
-    '2',    # romantic relationship
-    '2',    # family relations
-    '4',    # free time after school
-    '3',    # frequency of going out
-    '4',    # weekday alcohol consumption
-    '1',    # weekend alcohol consumption
-    '1',    # health status
-    '3',    # number of school absences
-    '4',    # G1: first period grade
+X_train = ['6',    # sx: student's sex 
+    '0'    # age: student's age
+    '18'   # address
+    '3000 # family support
+    '3200' # parental support
+    '3500' # Medu: mother's education level
+    '4'   # Fedu: father's education level
+    '4'    # Mjob: mother's job
+    '3600' # Fjob: father's job
+    '3900' # reason for choosing school
+    '4100' # guardian
+    '4400' # travel time
+    '2'   # study time
+    '2'   # failures
+    '0'    # schoolsup: school support
+    '1'    # famsup: family support
+    '2'    # paid tutoring
+    '2'    # extracurricular activities
+    '2'    # nursery attended
+    '1'    # higher education aspiration
+    '1'    # internet access
+    '2'    # romantic relationship
+    '2'    # family relations
+    '4'    # free time after school
+    '3'    # frequency of going out
+    '4'    # weekday alcohol consumption
+    '1'    # weekend alcohol consumption
+    '1'    # health status
+    '3'    # number of school absences
+    '4'    # G1: first period grade
     '0'     # G2: second period grade
 ]
 
