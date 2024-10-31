@@ -211,9 +211,10 @@ X_train = [
 ]
 
 𝐓𝐚𝐫𝐠𝐞𝐭 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞 (𝐝𝐞𝐩𝐞𝐧𝐝𝐞𝐧𝐭 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞)
+
 y_train = 11  # G3: final grade
 
-**Predicting the outcome for the single student**
+# Predicting the outcome for the single student
 
 single_prediction = model.predict([single_student_features])
 
