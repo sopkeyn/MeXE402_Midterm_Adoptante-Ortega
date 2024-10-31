@@ -77,6 +77,8 @@ The comprehensive nature of this dataset makes it a valuable tool for healthcare
 
 ### Label Encoding for Categorical Variables
 
+# 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐃𝐚𝐭𝐚
+
 In data analysis and machine learning, it's essential to convert categorical variables into numerical formats so that algorithms can process them effectively. This process is known as **Label Encoding**. Below is a detailed explanation of how I assigned unique numerical values to each category in the dataset:
 
 - **School:**
@@ -350,4 +352,6 @@ The R² score of **0.85** indicates that the model explains about **85%** of the
 
 
 <img src="https://github.com/user-attachments/assets/2ae218db-4d85-4617-8cb8-fedf967a90f4" alt="Header 5" width="1100" height="290" />
+
+# 𝐇𝐞𝐚𝐫𝐭 𝐃𝐢𝐬𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐚𝐬𝐞𝐭
 
