@@ -173,8 +173,10 @@ In this code, we are making a prediction for a single data point represented by 
 Explanation of the Features Used: This feature list contains values representing various characteristics for a single student, such as:
 
 **Making a prediction for a single data point with feature values**
+
 # Define the feature set (independent variables)
 X_train = [
+
     6,    # sx: student's sex
     0,    # age: student's age
     18,   # address
@@ -208,7 +210,7 @@ X_train = [
     0     # G2: second period grade
 ]
 
-# Define the target variable (dependent variable)
+# Target variable (dependent variable)
 y_train = 11  # G3: final grade
 
 **Predicting the outcome for the single student**
