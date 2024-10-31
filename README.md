@@ -213,12 +213,11 @@ X_train = [
 
 y_train = 11  # G3: final grade
 
-# Predicting the outcome for the single student
+**Predicting the outcome for the single student**
 
 single_prediction = model.predict([single_student_features])
 
 print("Predicted outcome:", single_prediction)
-
 
 
 ![Screenshot 2024-10-29 010651](https://github.com/user-attachments/assets/499d83d5-f0d8-4bc4-9d41-595cd80a0847)
