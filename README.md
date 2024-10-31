@@ -328,3 +328,57 @@ Findings Summary Table
 
 **Discussion**
 These results highlight the role of family education, consistent academic performance, and behavioral habits on academic outcomes. However, this analysis may be limited by potential data inconsistencies across merged files and lack of control for external variables like socioeconomic factors.
+
+--- 
+
+# Project Analysis
+
+This analysis focuses on **Student Performance** and **Heart Disease** datasets, using linear and logistic regression to identify significant predictors and key insights.
+
+## Methodology
+
+- **Data Preprocessing**:
+  - Handled missing values, encoded categorical variables, and standardized numerical features.
+  
+- **Feature Selection**:
+  - Selected relevant features based on correlations and domain knowledge.
+  
+- **Model Selection and Training**:
+  - **Student Performance**: Linear regression to predict grades.
+  - **Heart Disease**: Logistic regression for predicting disease presence.
+
+- **Model Evaluation**:
+  - For linear regression: Evaluated with R-squared, MAE, and RMSE.
+  - For logistic regression: Assessed using accuracy, precision, recall, F1-score, and AUC-ROC.
+
+---
+
+## Findings
+
+### 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐃𝐚𝐭𝐚𝐬𝐞𝐭 (Linear Regression)
+
+- **Predictive Variables**: Factors like study time, parental education, and previous grades show a significant relationship with final grades.
+- **Key Findings**: 
+  - Predictors such as study time and parental involvement positively impact grades.
+  - Absenteeism and frequent alcohol use have negative impacts on performance.
+
+### 𝐇𝐞𝐚𝐫𝐭 𝐃𝐢𝐬𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐚𝐬𝐞𝐭 (Logistic Regression)
+
+- **Predictive Variables**: Features such as age, cholesterol levels, blood pressure, and exercise-induced angina impact heart disease risk.
+- **Key Findings**: 
+  - Higher age, resting blood pressure, and cholesterol correlate with a higher likelihood of heart disease.
+  - Physical exercise and lower blood pressure may be protective factors.
+
+---
+
+## Insights Gained
+
+### 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞:
+
+- Socioeconomic factors (e.g., parental education) have a significant influence on academic success.
+- Behavioral factors, like study habits and extracurricular activities, contribute meaningfully to performance, indicating a need for tailored academic support.
+
+### 𝐇𝐞𝐚𝐫𝐭 𝐃𝐢𝐬𝐞𝐚𝐬𝐞:
+
+- The impact of lifestyle choices (smoking, diet, exercise) on heart disease risk is significant.
+- Identifying high-risk individuals can support early intervention by addressing modifiable factors such as cholesterol and exercise habits.
