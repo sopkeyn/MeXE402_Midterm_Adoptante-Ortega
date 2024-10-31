@@ -177,6 +177,7 @@ Explanation of the Features Used: This feature list contains values representing
 # Define the feature set (independent variables)
 # Define the training data's feature set (independent variables)
 X_train = [
+
     '6',    # sx: student's sex 
     '0',    # age: student's age
     '18',   # address
