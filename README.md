@@ -2,8 +2,6 @@
 
 <img src="https://github.com/user-attachments/assets/8be84541-550c-4449-9992-9ea031b2bd87"  alt="My GIF" width="1100" height="290" />
 <img src="https://github.com/user-attachments/assets/a56328b5-b523-48f2-9882-554845c1951b" alt="Logistic Email Header" width="1100" height="290" />
-<img src="https://github.com/user-attachments/assets/bc95c9bd-2c8e-495b-aa45-c8ba47762ba1" alt="My GIF" width="1100" height="290" />
-
 <p align="center">**𝐈𝐍𝐓𝐑𝐎𝐃𝐔𝐂𝐓𝐈𝐎𝐍: 𝐎𝐯𝐞𝐫𝐯𝐢𝐞𝐰 𝐨𝐟 𝐋𝐢𝐧𝐞𝐚𝐫 𝐚𝐧𝐝 𝐋𝐨𝐠𝐢𝐬𝐭𝐢𝐜 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧**</p>
 
 ---
