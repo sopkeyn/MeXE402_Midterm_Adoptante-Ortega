@@ -170,9 +170,8 @@ The `.fit()` method is used to train or “fit” the model. It takes in two arg
   
 In this code, we are making a prediction for a single data point represented by a list of feature values. Each feature corresponds to a specific attribute (like age, address, parental education, family support, etc.) relevant to the model’s prediction.
 
-Explanation of the Features Used: This feature list contains values representing various characteristics for a single student, such as:
-
-**Making a prediction for a single data point with feature values**
+**Making a prediction for a single data point with feature values**.
+This feature list contains of the values representing various characteristics for a single student, such as:
 
 𝐃𝐞𝐟𝐢𝐧𝐞 𝐭𝐡𝐞 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐬𝐞𝐭 (𝐢𝐧𝐝𝐞𝐩𝐞𝐧𝐝𝐞𝐧𝐭 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬)
 X_train = [
