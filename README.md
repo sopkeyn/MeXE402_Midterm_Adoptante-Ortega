@@ -301,38 +301,9 @@ Root Mean Squared Error (RMSE): 1.2101531590175027
 
 The R² score of **0.85** indicates that the model explains about **85%** of the variance in the final grade (G3). This suggests a reasonably good fit for the data, though there is still some room for improvement.
 
-## Correlation Analysis of Student Grades
+# RESULTS AND DISCUSSION
+**Linear Regression**
 
-This analysis examines factors that significantly influence students' final grades (G3), based on correlations with various attributes:
-
-### Key Findings
-
-- **High Correlation with Previous Grades:**  
-  The analysis reveals a strong positive correlation between students' initial grades (G1 and G2) and their final grade (G3). Students who perform well early in the term tend to maintain or improve their performance. This consistency likely reflects strong foundational knowledge and effective study habits that support ongoing academic success.
-
-- **Positive Family Influence:**  
-  Parental education levels (Medu and Fedu) and the time students dedicate to studying both positively correlate with G3. This suggests that family background and support play a key role in academic achievement. Higher parental education may reflect a family environment that values education, and increased study time allows students to engage deeply with their coursework, contributing to better outcomes.
-
-- **Negative Behavioral Factors:**  
-  Alcohol consumption—both during the week (Dalc) and on weekends (Walc)—and past academic failures are negatively correlated with final grades. These findings suggest that behaviors such as alcohol use may reduce the focus and energy necessary for academic success, while previous academic failures could impact students’ confidence and future performance. Addressing these factors may help improve student outcomes.
-  
-import matplotlib.pyplot as plt
-import numpy as np
-
-# Plotting the actual vs. predicted values
-plt.figure(figsize=(8, 6))
-plt.scatter(y_test, y_pred, color='red', s=10, label='Predicted vs Actual')
-plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='blue', linewidth=2)
-
-# Set axes to start from zero
-plt.xlim(left=0)
-plt.ylim(bottom=0)
-
-plt.xlabel("Actual Value")
-plt.ylabel("Predicted Value")
-plt.title("Comparison of Predicted and Actual Values")
-plt.legend()
-plt.show()
 
 ---
 
