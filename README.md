@@ -343,7 +343,7 @@ This project utilizes machine learning to predict the likelihood of heart diseas
 
  **Cholesterol**
 -  serum cholestoral in mg/dl
--  
+  
  **Fasting Blood Sugar > 120 mg/dl**
 - 1 = true
 - 0 = false
