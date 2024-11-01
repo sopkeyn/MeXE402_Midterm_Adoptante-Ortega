@@ -304,6 +304,25 @@ The R² score of **0.85** indicates that the model explains about **85%** of the
 # RESULTS AND DISCUSSION
 **Linear Regression**
 
+**Independent Variables (Features)**
+These could include a mix of academic, demographic, and behavioral data:
+
+Study Hours – Number of hours the student studies per week.
+Attendance Rate – Percentage of classes attended.
+Previous Test Scores – Average or most recent test scores.
+Assignments Completed – Number or percentage of assignments completed.
+Parental Education Level – Highest education level of the student's parents.
+Extra-curricular Activities – Involvement in clubs, sports, etc.
+Participation in Class – Participation score or rating in class activities.
+Socioeconomic Status – Socioeconomic status indicator (income level, neighborhood type, etc.).
+
+**Dependent Variable (Target)**
+The target variable could be one of the following:
+
+Final Grade – The overall grade or score in a specific subject or for the semester.
+Test Score – A specific score on a standardized test or exam.
+Pass/Fail Status – Binary classification where the target is whether a student passes or fails.
+
 ![Screenshot 2024-11-01 143450](https://github.com/user-attachments/assets/ff872313-1b88-4621-a119-54f042ad9ccc)
 
 
