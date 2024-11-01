@@ -325,58 +325,58 @@ This analysis examines factors that significantly influence students' final grad
 # 𝐇𝐞𝐚𝐫𝐭 𝐃𝐢𝐬𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐚𝐬𝐞𝐭
 This project utilizes machine learning to predict the likelihood of heart disease in patients based on clinical data. Heart disease is a complex condition with various contributing factors, including lifestyle, genetic predisposition, and medical history. Early prediction can help guide medical interventions and improve patient outcomes.
 
-- **Age:**
+ **Age:**
 - Age in years
 
-- **Sex:**
+ **Sex:**
 - 1 = male
 - 0 = female
 
-- **Chest pain type**
+ **Chest pain type**
 - Value 1: typical angina
 - Value 2: atypical angina
 - Value 3: non-anginal pain
 - Value 4: asymptomatic
 
-- **trestbps - resting blood pressure**
+ **trestbps - resting blood pressure**
 -  (in mm Hg on admission to the hospital)
 
--  **Cholesterol**
+ **Cholesterol**
 -  serum cholestoral in mg/dl
 -  
--  **Fasting Blood Sugar > 120 mg/dl**
+ **Fasting Blood Sugar > 120 mg/dl**
 - 1 = true
 - 0 = false
   
-- **restecg**
+  **restecg**
 - Resting Electrocardiographic Results
   
-- **thalach**
+ **thalach**
   - maximum heart rate achieved
  
-  - **exang**
-- exercise induced angina
+  **exang**
+ exercise induced angina
 - 1 = yes
 - 0 = no
   
-- **oldpeak**
+  **oldpeak**
 - ST depression induced by exercise relative to rest
 
--  **slope**
+  **slope**
 - the slope of the peak exercise ST segment
 Value 1: upsloping
 Value 2: flat
 Value 3: downsloping
 
--  **ca**
+   **ca**
 - number of major vessels (0-3) colored by flourosopy
 
--  **thal**
+   **thal**
 - 3 = normal
 - 6 = fixed defect
 - 7 = reversable defect
 
--  **target**
+   **target**
 - have disease or not (1=yes, 0=no)
 
 
