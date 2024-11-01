@@ -326,7 +326,40 @@ The target variable for prediction is one of the following:
 - **Test Score**: A specific score on a standardized test or exam.
 - **Pass/Fail Status**: Binary classification indicating whether a student passes or fails.
 
-![Screenshot 2024-11-01 143450](https://github.com/user-attachments/assets/ff872313-1b88-4621-a119-54f042ad9ccc)
+To visualize the assumptions of linear regression using the comparison of actual and predicted values, the visualizations shows:
+
+-Scatter Plot: Shows the relationship between actual and predicted values.
+-Residuals Plot: Displays the residuals (differences between actual and predicted values) against the predicted values to check for homoscedasticity (constant variance).
+-Histogram of Residuals: Checks the normality of residuals.
+
+![Screenshot 2024-11-01 164626](https://github.com/user-attachments/assets/92141fe6-291f-4356-9a3e-8078621fafca)
+![Screenshot 2024-11-01 164651](https://github.com/user-attachments/assets/0a3579f5-f660-49f2-a00a-a739809a590c)
+
+# Linear Regression Assumptions Visualization
+
+This project includes visualizations to assess the assumptions of linear regression using actual and predicted values of student performance. Below are explanations for each plot created during the analysis:
+
+## 1. Scatter Plot of Actual vs. Predicted Values
+
+This plot illustrates how closely the predicted values match the actual values. The **ideal fit line** (in pink) represents perfect predictions, where predicted values equal actual values. Points that are close to this line indicate accurate predictions, while those that are far from it may suggest areas for improvement in the model.
+
+![Scatter Plot](path/to/scatter_plot_image.png)
+
+## 2. Residuals vs. Predicted Values
+
+This plot helps check for **homoscedasticity** (constant variance of residuals). If the residuals are randomly dispersed around zero without forming any particular pattern, it indicates that the model's assumptions hold true. Conversely, if a pattern emerges (e.g., a funnel shape), it might suggest that a different model may be more appropriate.
+
+![Residuals Plot](path/to/residuals_plot_image.png)
+
+## 3. Histogram of Residuals
+
+This histogram displays the distribution of residuals. Ideally, the residuals should be normally distributed (bell-shaped), which would indicate that the assumptions of linear regression are satisfied. A significant deviation from this normal distribution might signal potential issues with the model.
+
+![Histogram of Residuals](path/to/histogram_image.png)
+
+## Conclusion
+
+These visualizations serve as diagnostic tools to evaluate the performance of the linear regression model and the validity of its assumptions. By examining these plots, one can better understand how well the model is performing and whether any adjustments or alternative modeling approaches are necessary.
 
 ---
 
