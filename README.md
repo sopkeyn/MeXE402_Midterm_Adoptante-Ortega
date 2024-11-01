@@ -326,11 +326,23 @@ The target variable for prediction is one of the following:
 - **Test Score**: A specific score on a standardized test or exam.
 - **Pass/Fail Status**: Binary classification indicating whether a student passes or fails.
 
-To visualize the assumptions of linear regression using the comparison of actual and predicted values, the visualizations shows:
+# Visualization of Linear Regression Assumptions
 
--Scatter Plot: Shows the relationship between actual and predicted values.
--Residuals Plot: Displays the residuals (differences between actual and predicted values) against the predicted values to check for homoscedasticity (constant variance).
--Histogram of Residuals: Checks the normality of residuals.
+This project includes visualizations to assess the assumptions of linear regression through the comparison of actual and predicted values. Below are the key visualizations and their purposes:
+
+1. Scatter Plot
+   The scatter plot illustrates the relationship between actual and predicted values. It helps to visually assess how closely the predicted values align with the actual values.
+
+
+2. Residuals Plot
+   The residuals plot displays the residuals (differences between actual and predicted values) against the predicted values. This plot is used to check for **homoscedasticity**, indicating whether the variance of the residuals is constant across all levels of the predicted values.
+
+3. Histogram of Residuals
+   The histogram checks the **normality** of the residuals. Ideally, the distribution of residuals should resemble a bell-shaped curve, which supports the validity of the linear regression assumptions.
+
+## Conclusion
+
+These visualizations serve as essential diagnostic tools for evaluating the performance of the linear regression model and verifying the underlying assumptions.
 
 ![Screenshot 2024-11-01 164626](https://github.com/user-attachments/assets/92141fe6-291f-4356-9a3e-8078621fafca)
 ![Screenshot 2024-11-01 164651](https://github.com/user-attachments/assets/0a3579f5-f660-49f2-a00a-a739809a590c)
@@ -343,19 +355,13 @@ This project includes visualizations to assess the assumptions of linear regress
 
 This plot illustrates how closely the predicted values match the actual values. The **ideal fit line** (in pink) represents perfect predictions, where predicted values equal actual values. Points that are close to this line indicate accurate predictions, while those that are far from it may suggest areas for improvement in the model.
 
-![Scatter Plot](path/to/scatter_plot_image.png)
-
 ## 2. Residuals vs. Predicted Values
 
 This plot helps check for **homoscedasticity** (constant variance of residuals). If the residuals are randomly dispersed around zero without forming any particular pattern, it indicates that the model's assumptions hold true. Conversely, if a pattern emerges (e.g., a funnel shape), it might suggest that a different model may be more appropriate.
 
-![Residuals Plot](path/to/residuals_plot_image.png)
-
 ## 3. Histogram of Residuals
 
 This histogram displays the distribution of residuals. Ideally, the residuals should be normally distributed (bell-shaped), which would indicate that the assumptions of linear regression are satisfied. A significant deviation from this normal distribution might signal potential issues with the model.
-
-![Histogram of Residuals](path/to/histogram_image.png)
 
 ## Conclusion
 
