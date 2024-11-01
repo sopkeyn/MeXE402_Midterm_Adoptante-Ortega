@@ -304,6 +304,9 @@ The R² score of **0.85** indicates that the model explains about **85%** of the
 # RESULTS AND DISCUSSION
 **Linear Regression**
 
+![Screenshot 2024-11-01 143450](https://github.com/user-attachments/assets/ff872313-1b88-4621-a119-54f042ad9ccc)
+
+
 
 ---
 
