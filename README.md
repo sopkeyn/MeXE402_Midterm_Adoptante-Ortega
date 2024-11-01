@@ -316,7 +316,23 @@ This analysis examines factors that significantly influence students' final grad
 - **Negative Behavioral Factors:**  
   Alcohol consumption—both during the week (Dalc) and on weekends (Walc)—and past academic failures are negatively correlated with final grades. These findings suggest that behaviors such as alcohol use may reduce the focus and energy necessary for academic success, while previous academic failures could impact students’ confidence and future performance. Addressing these factors may help improve student outcomes.
   
-![student_performance_heatmap](https://github.com/user-attachments/assets/d62cf3bd-9048-48f7-8416-08bdfe681025)
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Plotting the actual vs. predicted values
+plt.figure(figsize=(8, 6))
+plt.scatter(y_test, y_pred, color='red', s=10, label='Predicted vs Actual')
+plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='blue', linewidth=2)
+
+# Set axes to start from zero
+plt.xlim(left=0)
+plt.ylim(bottom=0)
+
+plt.xlabel("Actual Value")
+plt.ylabel("Predicted Value")
+plt.title("Comparison of Predicted and Actual Values")
+plt.legend()
+plt.show()
 
 ---
 
