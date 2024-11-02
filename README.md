@@ -45,7 +45,7 @@ This dataset exemplifies the power of public health datasets in guiding medical 
 
 ****𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐎𝐛𝐣𝐞𝐜𝐭𝐢𝐯𝐞𝐬 𝐟𝐨𝐫 𝐋𝐨𝐠𝐢𝐬𝐭𝐢𝐜 𝐑𝐞𝐠𝐫𝐞𝐬𝐬𝐢𝐨𝐧 𝐨𝐧 𝐇𝐞𝐚𝐫𝐭 𝐃𝐢𝐬𝐞𝐚𝐬𝐞 𝐔𝐂𝐈 𝐃𝐚𝐭𝐚𝐬𝐞𝐭**
 
--To analyze the dataset to explore the Heart Disease dataset to understand its structure, identify missing values and outliers, and perform necessary preprocessing.
+-To analyze the dataset to explore the Heart Disease dataset to understand its structure, identify outliers, and perform necessary preprocessing.
 
 -To identify key risk factors by analyzing medical and demographic factors influencing heart disease using statistical methods and visualizations to uncover correlations.
 
