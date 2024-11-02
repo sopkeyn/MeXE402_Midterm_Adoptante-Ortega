@@ -517,7 +517,6 @@ Accuracy measures the proportion of correct predictions among the total number o
 
 If accuracy = 0.8634, it suggests that approximately 86.34% of predictions are correct.
 
----
 - 1. **Outlier Identification**
 
 - In analyzing the heart disease dataset, we focused on identifying outliers in continuous variables using Z-score analysis. Observations with a Z-score greater than 3 or less than -3 were flagged as potential outliers.These extreme values may represent abnormal clinical measurements or rare cases, which could impact the model’s performance.
@@ -540,6 +539,13 @@ If accuracy = 0.8634, it suggests that approximately 86.34% of predictions are c
 -  **Cap Extreme Values**: To prevent skewing the model, extreme values can be capped. This approach keeps values within a reasonable range while still preserving variation.
 
 -  **Remove Outlier**s (if necessary): For models sensitive to noise, such as linear regression, removing extreme outliers may improve accuracy. However, in clinical datasets, removing outliers risks losing data on patients with severe conditions, potentially impacting the model’s applicability to real-world cases.
+
+---
+**CONCLUSIONS**
+The Logistic Regression model achieved an accuracy of 86.34% on the test set, indicating a good level of reliability in predicting the presence of heart disease based on the dataset features. This result shows that Logistic Regression effectively identifies patterns associated with heart disease. Further improvements could involve more refined data cleaning and handling missing values carefully, as too much data processing was found to reduce the model’s performance. Overall, the model’s accuracy suggests that it could be a helpful starting point for analyzing heart disease risks, with room for potential enhancements through balanced data preprocessing.
+
+**Key Takeway**
+In summary, the features in the Heart Disease dataset—such as age, sex, chest pain type, resting blood pressure, cholesterol levels, fasting blood sugar, electrocardiographic results, maximum heart rate achieved, exercise-induced angina, ST depression, slope of the ST segment, number of major vessels, and thalassemia—play a crucial role in assessing an individual’s risk of heart disease. Each feature contributes uniquely to heart disease risk through mechanisms like arterial health, metabolic function, and stress responses. The Logistic Regression model's 86.34% accuracy suggests that these features collectively provide meaningful insight into heart disease likelihood, while balanced data processing is essential for maintaining model performance.
 
 ---  
 
