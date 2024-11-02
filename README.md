@@ -508,8 +508,12 @@ Outliers were identified in this dataset to understand and handle anomalous data
 Calculate the Confusion Matrix
 Assuming `y_test` contains the true values and `y_pred` contains the predicted values from your model
 
+![Screenshot 2024-11-02 212454](https://github.com/user-attachments/assets/2ead181a-7889-450a-88b8-6c7b9620f88b)
+
+
 1. **Confusion Matrix Calculation**
    confusion_matrix(y_test, y_pred)
+
 2. **Accuracy Result**
    accuracy_score(y_test, y_pred)
 
