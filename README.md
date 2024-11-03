@@ -649,3 +649,14 @@ This section provides a comparison of linear and logistic regression models, wit
 
 Both methods are foundational but may not capture complex relationships as effectively as more flexible models due to limitations in assumptions and interpretability.
 
+### 🩷 References
+
+1. **Linear and Logistic Regression**  
+   - [FreeCodeCamp: Linear Regression vs Logistic Regression](https://www.freecodecamp.org/news/linear-regression-vs-logistic-regression/)  
+   - [Coursera: Linear Regression vs Logistic Regression](https://www.coursera.org/articles/linear-regression-vs-logistic-regression)
+
+2. **Datasets**
+   - [Student Performance Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)  
+   - [Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
+
+
